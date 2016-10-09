@@ -10,6 +10,7 @@
 class Logs extends CI_Model {
 
 	// The data comes from http://www.quotery.com/top-100-funny-quotes-of-all-time/?PageSpeed=noscript
+    // This data is DUMMY DATA. Do not use for actual release
 	var $data = array(
 		array('id' => '1', 'who' => 'Almond Tea Cake', 'pic' => 'Almond_Tea_Cake.jpg', 'where' => '/sleep',
 			'what' => 'When I die, I want to go peacefully like my grandfather did–in his sleep. Not yelling and screaming like the passengers in his car.'),
